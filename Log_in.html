@@ -6,25 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estiloLog_in.css" />
     <title>Log in</title>
-    <script>
-        //crear una pagina web que permita sumar dos numeros
-        function inicializar(){
-            document.getElementById('btn-login').addEventListener('click',validarCredenciales);
-        }
-        function validarCredenciales(){
-
-            let email =document.getElementById('email').value;
-            let clave =document.getElementById('password').value;
-            if (email=="dars5720@hotmail.com" && clave=="2468") {
-                window.location="./menu.html";
-            } else {
-                alert('Datos incorrectos');
-                return false;
-            }
-
-        }
-        window.addEventListener('load',inicializar);
-    </script>
+    <script src="validacionLogIn.js"></script>
   </head>
   <body>
     <section>
