@@ -1,0 +1,91 @@
+*{
+    margin:0;
+}
+#empresa_imagen{
+     width: 400px;
+     margin:0 auto;
+     display: block;
+}
+h1#Modelo{
+    background-color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.1em;
+    font-weight:bold;
+    font-family: Helvetica;
+    color: #333;
+    box-sizing: border-box;
+    display: block;
+}
+body{
+    background-color: whitesmoke;
+    font-size: 1em;
+    font-family: Helvetica;
+    color:black;
+}
+#marca{
+    padding-top: 3px;
+    padding-bottom: 1px;
+    background-color: white;
+    color:#707070;
+    font-size: 20px;
+}
+#precio{
+    background-color: white;
+    padding-bottom: 1px;
+    font-weight: bolder;
+    color: black;
+}
+#descripción{
+    background-color: white;
+    padding-top: 1px;
+}
+#descuento{
+    background-color: white;
+    color:#f85151;
+    font-weight: bold;
+    font-size: 20px;
+}
+p#marca,p#precio,p#descripción,p#descuento{
+    text-align: start;
+    padding-left:10px;
+    vertical-align: bottom;
+}
+div.producto{ 
+    background-color: white;
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+img.productoIM{
+    position: relative;
+    /*
+    height: 227.53px;
+    */
+    width: 227.53px;
+    
+    background-color: white;
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+a.btn_contactanos{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+#footer{
+    text-align: center;
+    font-size: 0.7em;
+    font-family: Helvetica;
+    color: black;
+}
+img.wsp_imagen{
+    width: 64px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
