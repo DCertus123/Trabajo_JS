@@ -1,5 +1,6 @@
 *{
     margin:0;
+    
 }
 #empresa_imagen{
      width: 400px;
@@ -71,11 +72,15 @@ img.productoIM{
 a.btn_contactanos{
     display: block;
     text-align: center;
+    width: 25%;
     font-size: 25px;
     margin:auto;
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
+    color: whitesmoke;
+    font-family: 'poppins',sans-serif;
+    background: #333;
 }
 #footer{
     text-align: center;
