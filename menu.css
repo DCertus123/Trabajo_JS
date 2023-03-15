@@ -18,6 +18,10 @@ h1#Modelo{
     box-sizing: border-box;
     display: block;
 }
+span.input-group-text{
+    height:38px ;
+}
+
 body{
     background-color: whitesmoke;
     font-size: 1em;
@@ -93,4 +97,7 @@ img.wsp_imagen{
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+#navegacion{
+    margin-bottom: 15px;
 }
